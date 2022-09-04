@@ -1,4 +1,4 @@
-FROM ros2:foxy
+FROM ros:foxy
 
 # copy selected packages to desired directory in container
 COPY . /root/ament_ws/src/rviz2_rotatable_image_plugin
