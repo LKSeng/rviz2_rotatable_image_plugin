@@ -30,10 +30,6 @@ find_package(rviz_ogre_vendor REQUIRED)
 
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
-find_package(geometry_msgs REQUIRED)
-
-find_package(ignition-math6 REQUIRED)
-
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(pluginlib REQUIRED)
