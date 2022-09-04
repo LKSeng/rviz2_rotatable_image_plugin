@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>rviz2_rotatable_image_plugin</name>
+  <version>1.0.0</version>
+  <description>
+    The rviz2_rotatable_image_plugin package.
+  </description>
+  <maintainer email="88697507+LKSeng@users.noreply.github.com">LKSeng</maintainer>
+  <license>BSD</license>
+
+  <url type="website">https://github.com/LKSeng/rviz2_rotatable_image_plugin/blob/main/README.md</url>
+  <url type="repository">https://github.com/LKSeng/rviz2_rotatable_image_plugin</url>
+  <url type="bugtracker">https://github.com/LKSeng/rviz2_rotatable_image_plugin/issues</url>
+
+  <author email="88697507+LKSeng@users.noreply.github.com">LKSeng</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>qtbase5-dev</build_depend>
+  <build_depend>rviz_ogre_vendor</build_depend>
+
+  <build_export_depend>rviz_ogre_vendor</build_export_depend>
+
+  <exec_depend>libqt5-core</exec_depend>
+  <exec_depend>libqt5-gui</exec_depend>
+  <exec_depend>libqt5-opengl</exec_depend>
+  <exec_depend>libqt5-widgets</exec_depend>
+  <exec_depend>rviz_ogre_vendor</exec_depend>
+
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rviz_common</depend>
+  <depend>rviz_default_plugins</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

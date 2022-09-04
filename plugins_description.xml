@@ -1,0 +1,12 @@
+<library path="rviz2_rotatable_image_plugin">
+  <class
+    name="rviz2/ImageRotated"
+    type="rviz2::displays::ImageDisplay2"
+    base_class_type="rviz_common::Display"
+  >
+    <description>
+      Displays an image from a sensor_msgs/Image topic, similar to image_view, but allow for rotation. <a href="https://github.com/LKSeng/rviz2_rotatable_image_plugin">More Information</a>.
+    </description>
+    <message_type>sensor_msgs/msg/Image</message_type>
+  </class>
+</library>
