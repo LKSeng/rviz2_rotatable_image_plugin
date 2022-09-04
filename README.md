@@ -5,14 +5,14 @@ Alternative topologies include launching an [image_rotate node](https://wiki.ros
 
 This plugin works by taking the `sensor_msgs::msg::Image` before it is rendered, converting it to `cv::Mat` if rotation is needed for OpenCV to perform the rotation, and converting the rotated image back to `sensor_msgs::msg::Image` for rendering.
 
-This plugin was created for [ROS2 Foxy](https://wiki.ros.org/noetic), on [Ubuntu-20.04](https://releases.ubuntu.com/20.04/). For the ROS version of this node, check out [rviz_rotatable_image_plugin](https://github.com/LKSeng/rviz_rotatable_image_plugin).
+This plugin was created for [ROS2 Foxy](https://docs.ros.org/en/foxy/index.html), on [Ubuntu-20.04](https://releases.ubuntu.com/20.04/). For the ROS version of this node, check out [rviz_rotatable_image_plugin](https://github.com/LKSeng/rviz_rotatable_image_plugin).
 
 # Installation
 
 1. Clone this repository to your ROS workspace
 2. Build this package
     ```shell
-    catkin build rviz_rotatable_image_display
+    colcon build --packages-select rviz2_rotatable_image_plugin
     ```
 
 # Usage
